@@ -1,0 +1,14 @@
+
+修改这些位置
+
+
+#cloudflare的帐号
+auth_email=""
+#cloudflare的密钥
+auth_key=""
+#cloudflare的顶级域名
+zone_name=""
+#cloudflare的对应ddns域名
+record_name=""
+#需要通知的邮箱
+email=""
