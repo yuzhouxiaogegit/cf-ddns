@@ -3,7 +3,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-#cloudflare的密钥
+#cloudflare的CFKEY
 CFKEY=
 
 #cloudflare的帐号
