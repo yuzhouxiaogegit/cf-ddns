@@ -31,9 +31,9 @@ chmod +x cf-ddns.sh
 ```
 ### 设置定时任务、输入 crontab -e  然后会弹出 vi 编辑界面，按小写字母 i 进入编辑模式，在文件里面添加一行
 ```code
-*/2 * * * * /root/cf-v4-ddns.sh >/dev/null 2>&1
+*/2 * * * * /root/cf-ddns.sh >/dev/null 2>&1
 ```
 ### 如果您需要日志文件，上述代码请替换成下面代码
 ```code
-*/2 * * * * /root/cf-v4-ddns.sh >> /var/log/cf-ddns.log 2>&1
+*/2 * * * * /root/cf-ddns.sh >> /var/log/cf-ddns.log 2>&1
 ```
