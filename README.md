@@ -1,3 +1,5 @@
+# 动态ddns解析，支持ipv6
+
 ### 下载cf-ddns脚本
 ```code
 wget https://raw.githubusercontent.com/yuzhouxiaogegit/cf-ddns/master/cf-ddns.sh
