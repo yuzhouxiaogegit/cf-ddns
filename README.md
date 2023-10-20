@@ -38,3 +38,11 @@ chmod +x cf-ddns.sh
 ```code
 */2 * * * * /root/cf-ddns.sh >> /var/log/cf-ddns.log 2>&1
 ```
+### 重载定时任务配置
+```code
+systemctl reload crond.service
+```
+### 重启定时任务
+```code
+systemctl restart crond.service
+```
