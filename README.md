@@ -10,7 +10,7 @@ vi cf-ddns.sh
 ```
 ### 编辑内容为
 ```code 
-#cloudflare的CFKEY
+#cloudflare的CFKEY【Global API Key】
 CFKEY=
 
 #cloudflare的帐号
