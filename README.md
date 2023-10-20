@@ -8,7 +8,7 @@ wget https://raw.githubusercontent.com/yuzhouxiaogegit/cf-ddns/master/cf-ddns.sh
 ```code
 vi cf-ddns.sh
 ```
-### [【Global API Key】生成地址]([url](https://dash.cloudflare.com/profile)){target="_blank"}
+### [【Global API Key】生成地址](https://dash.cloudflare.com/profile){target="_blank"}
 ### 编辑内容为
 ```code 
 #cloudflare的CFKEY【Global API Key】
