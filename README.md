@@ -14,7 +14,7 @@ vi cf-ddns.sh
 #cloudflare的CFKEY【Global API Key】
 CFKEY=
 
-#cloudflare的帐号
+#cloudflare的帐号【邮箱】
 CFUSER=
 
 #cloudflare的顶级域名
