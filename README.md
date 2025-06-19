@@ -2,7 +2,7 @@
 
 ### 下载cf-ddns脚本
 ```code
-wget https://raw.githubusercontent.com/yuzhouxiaogegit/cf-ddns/master/cf-ddns.sh
+curl -Lo cf-ddns.sh https://raw.githubusercontent.com/yuzhouxiaogegit/cf-ddns/master/cf-ddns.sh && chmod +x cf-ddns.sh
 ```
 ### 编辑文件
 ```code
@@ -25,10 +25,6 @@ CFRECORD_NAME=
 
 # 记录类型，A(IPv4)|AAAA(IPv6)，默认 IPv4
 CFRECORD_TYPE=A
-```
-### 给脚本添加执行权限
-```code
-chmod +x cf-ddns.sh
 ```
 ### 设置定时任务、输入 crontab -e  然后会弹出 vi 编辑界面，按小写字母 i 进入编辑模式，在文件里面添加一行
 ```code
