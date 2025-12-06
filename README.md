@@ -11,20 +11,20 @@ vi cf-ddns.sh
 ### 【Global API Key】生成地址： https://dash.cloudflare.com/profile/api-tokens
 ### 编辑内容为
 ```code 
-#cloudflare的CFKEY【Global API Key】
-CFKEY=
+# Cloudflare 的 API Token
+CF_TOKEN="您的Cloudflare API Token" 
 
-#cloudflare的帐号【邮箱】
-CFUSER=
+# cloudflare 的顶级域名
+CFZONE_NAME="您的顶级域名 (例如：mydomain.com)"
 
-#cloudflare的顶级域名
-CFZONE_NAME=
-
-#cloudflare的对应ddns域名
-CFRECORD_NAME=
+# cloudflare 的对应 ddns 域名
+CFRECORD_NAME="您要更新的DDNS域名 (例如：home.mydomain.com)" 
 
 # 记录类型，A(IPv4)|AAAA(IPv6)，默认 IPv4
-CFRECORD_TYPE=A
+CFRECORD_TYPE="A" 
+
+# DNS 记录的代理状态: true (开启代理) | false (仅DNS)
+CFPROXIED=false
 ```
 ### 设置定时任务、输入 crontab -e  然后会弹出 vi 编辑界面，按小写字母 i 进入编辑模式，在文件里面添加一行
 ```code
